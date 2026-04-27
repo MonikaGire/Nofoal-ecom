@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find d:/Monika/Under-construction-websites/ecommerce-nofoal-20-3-26/client/public -name *.css)",
+      "Bash(npm install:*)",
+      "Bash(node seed.js)",
+      "Bash(node -e \"require\\(''''multer''''\\); console.log\\(''''multer ok''''\\)\")",
+      "Bash(find d:/Monika/Under-construction-websites/ecommerce-nofoal-20-3-26/client/public/js -name *.js)",
+      "Bash(curl -s http://localhost:5000/api/products)",
+      "Bash(node -e \"process.stdin.resume\\(\\);let d='''''''';process.stdin.on\\(''''data'''',c=>d+=c\\);process.stdin.on\\(''''end'''',\\(\\)=>{const prods=JSON.parse\\(d\\).products;prods.forEach\\(p=>console.log\\(p.slug,''''images:'''',p.images?.length??''''N/A''''\\)\\)}\\)\")"
+    ]
+  }
+}
